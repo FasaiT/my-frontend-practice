@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.my-nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.help-logo > a {
+  color: white;
+  text-decoration: none;
+}
+.abstract-logo {
+  width: 150px;
+}
+
+.header {
+  background-color: #dadbf1;
+  padding-top: 80px;
+  padding-bottom: 115px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-header {
+  font-family: "GT America Standard", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.text-body-secondary {
+  color: white !important;
+}
